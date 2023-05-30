@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+#titulo-izquierda {
+  margin: 0;
+  background-color: black;
+  padding: 10px;
+}
+
+#titulo-derecha {
+  font-size: 24px;
+  margin: 0;
+  text-align: right;
+}
+
+#sesion {
+      float: left;
+      margin-right: 0px;
+    }
+#mapa {
+      width: 100%;
+      }
+
+  
