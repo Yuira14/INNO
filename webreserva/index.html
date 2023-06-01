@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Programació Avançada">
@@ -16,6 +17,7 @@
 
 
 <form name="formulari">
+<div id="eee">
 <header id="h1"><h1>RESERVA un lloc</h1></header>
 <ul>
 <label id="h">* Obligatori</label><br><br>
@@ -55,8 +57,8 @@
 <option value="Madrid">Facultat de Ciències</option>
 <option value="Vigo">Facultat de Filosofia i Lletres</option>
 <option value="Granada">Facultat de Psicologia</option>
-</select><br><br>
-<label>*</label>
+</select>
+<label>*</label><br><br>
 
 <label for="ident">Escull la zona d'estudi:</label>
 <select id = "ciutats" name = "ciutats"  onblur="surtciutat();" onclick="ciutat();">
@@ -76,6 +78,7 @@
 <button type="button" name="boto"onclick="executar();">Enviar</button><br>
 <label id="inc5"></label>
 </ul>
+</div>
 </form>
 
 

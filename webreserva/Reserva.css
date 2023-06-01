@@ -59,7 +59,7 @@ form{
   
   margin: 0 auto;
   background-color: #000000;
-  padding: 20px 20px 20px 20px;
+  
   border: 1.5px solid rgb(243, 239, 239);
   border-radius:22px
   
@@ -69,4 +69,7 @@ body{
 	font-family:Calibri;
   color:azure
   
+}
+#eee{
+  height: 100vh;
 }
